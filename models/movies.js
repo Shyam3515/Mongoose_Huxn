@@ -100,7 +100,7 @@ const updateDocs = async () => {
   }
 };
 
-//Update Data
+//Delete Data
 const deleteDocs = async () => {
   try {
     const result = await MovieModel.deleteOne({ name: "Extraction 2" });
